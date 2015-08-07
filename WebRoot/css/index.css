@@ -1,0 +1,55 @@
+
+body{
+    color: rgba(2,147,85,1);
+    font-size: 60px;
+    padding: 20px;
+    font-weight: bolder;
+}
+
+.item{
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.label{
+    float: left;
+    margin-right: 30px;
+}
+
+.content {
+    color: rgba(0,0,0,1);
+}
+
+.invitedMembers{
+    width: 180px;
+    height: 180px;
+    float: left;
+    background-size: 180px 180px;
+    background-repeat: no-repeat;
+    border: solid 10px rgba(2,147,85,0.5);
+    border-radius: 90px;
+    background-clip: padding-box;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#download{
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 60px;
+}
+
+#download:link{
+    color: rgba(2,147,85,1);
+}
+
+#download:active{
+    color: rgba(2,147,85,0.5);
+}
+
+#download:visited{
+    color: rgba(2,147,85,0.5);
+}

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AccountServlet</servlet-name>
+    <servlet-class>com.csu.party.servlet.AccountServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginByQQServlet</servlet-name>
+    <servlet-class>com.csu.party.servlet.LoginByQQServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddPartyServlet</servlet-name>
+    <servlet-class>com.csu.party.servlet.AddPartyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetPartyByIDServlet</servlet-name>
+    <servlet-class>com.csu.party.servlet.GetPartyByIDServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetAccountByAccessTokenServlet</servlet-name>
+    <servlet-class>com.csu.party.servlet.GetAccountByAccessTokenServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetPartiesByAccessTokenServlet</servlet-name>
+    <servlet-class>com.csu.party.servlet.GetPartiesByAccessTokenServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateAccountLocation</servlet-name>
+    <servlet-class>com.csu.party.servlet.UpdateAccountLocation</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetAllAccountsServlet</servlet-name>
+    <servlet-class>com.csu.party.servlet.GetAllAccountsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InviteMembersServlet</servlet-name>
+    <servlet-class>com.csu.party.servlet.InviteMembersServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetAccountsByAccessTokenServlet</servlet-name>
+    <servlet-class>com.csu.party.servlet.GetAccountsByAccessTokenServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetPMessagesServlet</servlet-name>
+    <servlet-class>com.csu.party.servlet.GetPMessagesServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddActivityServlet</servlet-name>
+    <servlet-class>com.csu.party.servlet.AddActivityServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetPartiesByMemberAccessToken</servlet-name>
+    <servlet-class>com.csu.party.servlet.GetPartiesByMemberAccessToken</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetSharedPartyServlet</servlet-name>
+    <servlet-class>com.csu.party.servlet.GetSharedPartyServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AccountServlet</servlet-name>
+    <url-pattern>/AccountServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginByQQServlet</servlet-name>
+    <url-pattern>/LoginByQQServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddPartyServlet</servlet-name>
+    <url-pattern>/AddPartyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetPartyByIDServlet</servlet-name>
+    <url-pattern>/GetPartyByIDServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAccountByAccessTokenServlet</servlet-name>
+    <url-pattern>/GetAccountByAccessTokenServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetPartiesByAccessTokenServlet</servlet-name>
+    <url-pattern>/GetPartiesByAccessTokenServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateAccountLocation</servlet-name>
+    <url-pattern>/UpdateAccountLocation</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllAccountsServlet</servlet-name>
+    <url-pattern>/GetAllAccountsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InviteMembersServlet</servlet-name>
+    <url-pattern>/InviteMembersServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAccountsByAccessTokenServlet</servlet-name>
+    <url-pattern>/GetAccountsByAccessTokenServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetPMessagesServlet</servlet-name>
+    <url-pattern>/GetPMessagesServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddActivityServlet</servlet-name>
+    <url-pattern>/AddActivityServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetPartiesByMemberAccessToken</servlet-name>
+    <url-pattern>/GetPartiesByMemberAccessToken</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSharedPartyServlet</servlet-name>
+    <url-pattern>/GetSharedPartyServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
